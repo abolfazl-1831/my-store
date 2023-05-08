@@ -1,0 +1,91 @@
+/* <GoogleFonts> */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Playfair+Display&family=Poppins&display=swap');
+/* </GoogleFonts> */
+
+/* Font faces */
+@font-face {
+    font-family: 'Tanha';
+    src: url('../fonts/Tanha.ttf');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+
+@font-face {
+    font-family: 'YB';
+    src: url('../fonts/YB.woff');
+}
+
+@font-face {
+    font-family: 'Iran Sans';
+    src: url('../fonts/IranSans.TTF');
+}
+
+@font-face {
+    font-family: 'Iran Sans Bold';
+    src: url('../fonts/IranSans-Bold.TTF');
+}
+
+/* <Resetdefaults> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    list-style: none;
+    transition: 200ms;
+}
+
+*::selection {
+    background-color: #6bcfdc54;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #6b78dc;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* </Resetdefaults> */
+
+/* ------------------------------- mediaQuery (width <= 800px) ----------------------------------- */
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url('../images/bg-blured.jpg') !important;
+    }
+}
+
+/* ------------------------------- /mediaQuery (width <= 800px) ---------------------------------- */
+
+/* <body> */
+body {
+    font-family: 'Iran Sans';
+    font-size: 15px;
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* </body> */
